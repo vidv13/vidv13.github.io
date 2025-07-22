@@ -1,108 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Scupper & Company</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: "Georgia", serif;
-      background-color: #fdfcf9;
-      color: #2c2c2c;
-      line-height: 1.6;
-    }
-    header, section {
-      padding: 3rem 1.5rem;
-      max-width: 800px;
-      margin: auto;
-    }
-    header {
-      text-align: center;
-      background-color: #ede6df;
-      border-bottom: 1px solid #d8cfc3;
-    }
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.5rem;
-    }
-    h2 {
-      font-size: 1.8rem;
-      margin-top: 2rem;
-    }
-    p {
-      margin-bottom: 1rem;
-    }
-    ul {
-      padding-left: 1.2rem;
-    }
-    footer {
-      text-align: center;
-      padding: 2rem 1rem;
-      font-size: 0.9rem;
-      color: #666;
-    }
-    .cta {
-      display: inline-block;
-      padding: 0.8rem 1.5rem;
-      background-color: #5b2a3d;
-      color: white;
-      text-decoration: none;
-      border-radius: 4px;
-      margin-top: 1rem;
-    }
-  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
+<body class="bg-[#fdfcf9] text-[#2c2c2c] font-serif">
 
-<header>
-  <h1>Software with roots—and reach.</h1>
-  <p>We help people build great software and grow it for the long haul.<br>
-     From first idea to full-scale platform, we’re with you every step.</p>
-  <a href="mailto:hello@scupperco.com" class="cta">Let’s Talk</a>
-</header>
+  <header class="bg-[#ede6df] border-b border-[#d8cfc3] py-12 px-6 text-center">
+    <img src="/logo.png" alt="Scupper & Company Logo" class="mx-auto w-16 h-16 mb-4" />
+    <h1 class="text-4xl font-bold mb-2">Software with roots—and reach.</h1>
+    <p class="text-lg">We help people build great software and grow it for the long haul.<br />From first idea to full-scale platform, we’re with you every step.</p>
+    <a href="mailto:hello@scupperco.com" class="inline-block mt-4 bg-[#5b2a3d] text-white px-6 py-3 rounded hover:bg-[#48202f] transition">Let’s Talk</a>
+  </header>
 
-<section>
-  <h2>What We Do</h2>
-  <p><strong>Full-lifecycle software development</strong><br>
-  We’re not just builders. We’re long-term product partners who design, develop, and support custom software from the ground up.</p>
-  <ul>
-    <li>MVP planning & technical architecture</li>
-    <li>Full-stack engineering (web, mobile, cloud)</li>
-    <li>Product iteration & growth</li>
-    <li>Ongoing support, scaling, and evolution</li>
-  </ul>
-</section>
+  <main class="max-w-3xl mx-auto px-6 py-12 space-y-12">
+    <section>
+      <h2 class="text-2xl font-semibold mb-4">What We Do</h2>
+      <p class="mb-4"><strong>Full-lifecycle software development</strong><br />
+        We’re not just builders. We’re long-term product partners who design, develop, and support custom software from the ground up.</p>
+      <ul class="list-disc list-inside space-y-1">
+        <li>MVP planning & technical architecture</li>
+        <li>Full-stack engineering (web, mobile, cloud)</li>
+        <li>Product iteration & growth</li>
+        <li>Ongoing support, scaling, and evolution</li>
+      </ul>
+    </section>
 
-<section>
-  <h2>Why Scupper & Company</h2>
-  <ul>
-    <li><strong>📍 Guidance</strong> — We translate ideas into roadmaps, and complexity into clarity.</li>
-    <li><strong>🛠️ Craftsmanship</strong> — Thoughtful design, clean code, and long-term thinking.</li>
-    <li><strong>🤝 Partnership</strong> — We're in it with you—not just for the build, but for the journey.</li>
-  </ul>
-</section>
+    <section>
+      <h2 class="text-2xl font-semibold mb-4">Why Scupper & Company</h2>
+      <ul class="list-disc list-inside space-y-1">
+        <li><strong>📍 Guidance</strong> — We translate ideas into roadmaps, and complexity into clarity.</li>
+        <li><strong>🛠️ Craftsmanship</strong> — Thoughtful design, clean code, and long-term thinking.</li>
+        <li><strong>🤝 Partnership</strong> — We're in it with you—not just for the build, but for the journey.</li>
+      </ul>
+    </section>
 
-<section>
-  <h2>Who We Work With</h2>
-  <ul>
-    <li>Founders and startups</li>
-    <li>Non-technical teams</li>
-    <li>Marketing firms needing technical delivery</li>
-    <li>Innovation leaders inside established orgs</li>
-  </ul>
-</section>
+    <section>
+      <h2 class="text-2xl font-semibold mb-4">Who We Work With</h2>
+      <ul class="list-disc list-inside space-y-1">
+        <li>Founders and startups</li>
+        <li>Non-technical teams</li>
+        <li>Marketing firms needing technical delivery</li>
+        <li>Innovation leaders inside established orgs</li>
+      </ul>
+    </section>
 
-<section>
-  <h2>Let’s Talk</h2>
-  <p>Whether you have an idea, a pitch, or a half-built app—we’d love to hear about it.</p>
-  <p><strong>Email:</strong> <a href="mailto:hello@scupperco.com">hello@scupperco.com</a></p>
-  <p><a href="mailto:hello@scupperco.com" class="cta">Schedule a Call</a></p>
-</section>
+    <section>
+      <h2 class="text-2xl font-semibold mb-4">Let’s Talk</h2>
+      <p class="mb-2">Whether you have an idea, a pitch, or a half-built app—we’d love to hear about it.</p>
+      <p class="mb-2"><strong>Email:</strong> <a href="mailto:hello@scupperco.com" class="text-[#5b2a3d] underline">hello@scupperco.com</a></p>
+      <a href="mailto:hello@scupperco.com" class="inline-block mt-2 bg-[#5b2a3d] text-white px-6 py-3 rounded hover:bg-[#48202f] transition">Schedule a Call</a>
+    </section>
+  </main>
 
-<footer>
-  &copy; 2025 Scupper & Company. All rights reserved.
-</footer>
+  <footer class="text-center text-sm text-gray-500 py-8">
+    &copy; 2025 Scupper & Company. All rights reserved.
+  </footer>
 
 </body>
 </html>
